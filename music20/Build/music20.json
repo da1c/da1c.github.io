@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Music_Project",
+"productVersion": "0.1",
+"dataUrl": "music20.data.unityweb",
+"wasmCodeUrl": "music20.wasm.code.unityweb",
+"wasmFrameworkUrl": "music20.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.19f1"
+}
