@@ -36,7 +36,7 @@ function init() {
   const camera = new THREE.PerspectiveCamera(45, width / height, 1, 1000);
 
   // カメラの座標更新
-  camera.position.set(100, 100, +500);
+  camera.position.set(0, 0, +500);
 
   // 平行光源
   const light = new THREE.DirectionalLight(0xffffff);
