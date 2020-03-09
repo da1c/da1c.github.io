@@ -3,7 +3,7 @@ function CreateMesh( x, y, z){
 
   // 箱を作成
   geometry = new THREE.BoxGeometry(x, y, z);
-  material = new THREE.MeshStandardMaterial({
+  material = new THREE.MeshBasicMaterial({
     color: 0x0000ff
   });
 
