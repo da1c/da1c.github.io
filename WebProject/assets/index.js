@@ -23,6 +23,7 @@ console.log("4");
 console.log("5");
   // ここで初期化処理を行う
   sceneManager = new SceneManager();
+  console.log("5.1.1");
   sceneManager.Init();
   console.log("5.1");
   // TaskManger作成
