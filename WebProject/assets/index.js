@@ -17,6 +17,7 @@ console.log("4");
 
   // デバイスピクセル比の設定
   renderer.setPixelRatio(window.devicePixelRatio);
+  console.log("4.5");
   // レンダラーのサイズ指定
   renderer.setSize(width, height);
 console.log("5");
