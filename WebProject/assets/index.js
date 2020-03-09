@@ -1,7 +1,7 @@
 window.addEventListener("DOMContentLoaded", init);
 
-var width = 900;
-var height = 900;
+var width = 960;
+var height = 540;
 
 function init() {
   // 画面サイズ
@@ -36,7 +36,7 @@ function init() {
   const camera = new THREE.PerspectiveCamera(45, width / height, 1, 1000);
 
   // カメラの座標更新
-  camera.position.set(0, 0, +500);
+  camera.position.set(0, 0, +1000);
 
   // 平行光源
   const light = new THREE.DirectionalLight(0xffffff);
@@ -47,7 +47,7 @@ function init() {
   sceneManager.AddObj(light);
 
   for (let x_idx = 0; x_idx < 2; x_idx++) {
-    for (let y_idx = 0; y_idx < 5; y_idx++) {
+    for (let y_idx = 0; y_idx < 2; y_idx++) {
       obj = new Obj3D();
       obj.SetMesh(CreateMesh(10, 10, 10));
       obj.SetPos( x_idx * 15, y_idx * 15, 0 );
