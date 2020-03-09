@@ -46,7 +46,7 @@ function init() {
   // ライト追加
   sceneManager.AddObj(light);
 
-  for (let x_idx = 0; x_idx < 5; x_idx++) {
+  for (let x_idx = 0; x_idx < 2; x_idx++) {
     for (let y_idx = 0; y_idx < 5; y_idx++) {
       obj = new Obj3D();
       obj.SetMesh(CreateMesh(10, 10, 10));
