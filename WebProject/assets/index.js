@@ -24,12 +24,15 @@ console.log("5");
   // ここで初期化処理を行う
   sceneManager = new SceneManager();
   sceneManager.Init();
+  console.log("5.1");
   // TaskManger作成
   taskManager = new TaskManager();
   taskManager.Init();
+  console.log("5.2");
   // Objectマネージャー作成
   objManager = new ObjectManager();
   objManager.Init();
+  console.log("5.3");
   // Stageマネージャー作成
   stageManager = new StageManager();
   stageManager.Init("Canvas2D");
