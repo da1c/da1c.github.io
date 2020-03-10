@@ -1,3 +1,4 @@
+use strict;
 console.log("1");
 window.addEventListener("DOMContentLoaded", init);
 console.log("2");
