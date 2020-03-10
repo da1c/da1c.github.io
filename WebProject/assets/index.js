@@ -52,10 +52,10 @@ console.log("9");
   // ライト追加
   sceneManager.AddObj(light);
 console.log("10");
-  for (let x_idx = 0; x_idx < 1; x_idx++) {
-    for (let y_idx = 0; y_idx < 1; y_idx++) {
+  for (let x_idx = 0; x_idx < 2; x_idx++) {
+    for (let y_idx = 0; y_idx < 2; y_idx++) {
       obj = new Obj3D();
-      obj.SetMesh(CreateMesh(400, 400, 400));
+      obj.SetMesh(CreateMesh(40, 40, 40));
       obj.SetPos( x_idx * 15, y_idx * 15, 0 );
       // オブジェクトをシーンに追加
       sceneManager.AddObj(obj.mesh);
