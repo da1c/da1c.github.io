@@ -24,20 +24,20 @@ console.log("4");
   renderer.setSize(width, height);
 console.log("5");
   // ここで初期化処理を行う
-  sceneManager = new SceneManager();
+  var sceneManager = new SceneManager();
   console.log("5.1.1");
   sceneManager.Init();
   console.log("5.1");
   // TaskManger作成
-  taskManager = new TaskManager();
+  var taskManager = new TaskManager();
   taskManager.Init();
   console.log("5.2");
   // Objectマネージャー作成
-  objManager = new ObjectManager();
+  var objManager = new ObjectManager();
   objManager.Init();
   console.log("5.3");
   // Stageマネージャー作成
-  stageManager = new StageManager();
+  var stageManager = new StageManager();
   stageManager.Init("Canvas2D");
 console.log("6");
   // カメラ作成
@@ -56,7 +56,7 @@ console.log("9");
 console.log("10");
   for (let x_idx = 0; x_idx < 2; x_idx++) {
     for (let y_idx = 0; y_idx < 2; y_idx++) {
-      obj = new Obj3D();
+      let obj = new Obj3D();
       obj.SetMesh(CreateMesh(40, 40, 40));
       obj.SetPos( x_idx * 15, y_idx * 15, 0 );
       // オブジェクトをシーンに追加
