@@ -28,7 +28,9 @@ class SceneManager{
      * @memberof SceneManager
      */
     constructor(){
+        console.log("Scene:1");
         SceneManager.instance = this;
+        console.log("Scene:2");
     }
 
     /**
